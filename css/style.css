@@ -1,0 +1,27 @@
+.escenario {
+    border: 1px solid black;
+    width: 816px;
+    margin: 0 auto;
+    height: 768px;
+    background-image: url(../images/fondo.jpg);
+    background-position: 0px 0px;
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+#runner {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.malo{
+    width: 100px;
+    height: 100px;
+    background-image: url('https://art.pixilart.com/909f28ec737d033.png?v=1526669287');
+    background-size: cover;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}   
